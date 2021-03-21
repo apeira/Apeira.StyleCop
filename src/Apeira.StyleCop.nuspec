@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Apeira.StyleCop</id>
+    <version>1.0.3</version>
+    <authors>John Gross</authors>
+    <description>StyleCop rules for Apeira projects.</description>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers" version="1.1.118" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="stylecop.json" target="" />
+    <file src="Apeira.StyleCop.ruleset" target="" />
+    <file src="Apeira.StyleCop.props" target="build" />
+  </files>
+</package>
